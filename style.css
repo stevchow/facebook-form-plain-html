@@ -1,0 +1,173 @@
+* {padding: 0; margin: 0}
+
+body {
+	width: 100%;
+	margin: auto;
+}
+
+.container {
+	font-family: arial;
+}
+
+header {
+	background-color: #405D9B;
+	width: 100%;	
+}
+header .containerheader {
+	overflow: hidden;
+	width: 1000px;
+	margin: auto;
+}
+header .containerheader .headerleft {
+	width: 400px;
+	float: left;
+}
+header .containerheader .headerleft img {
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+header .containerheader .headerright {
+	margin-top: 10px;
+	width: 400px;
+	float: right;
+	color: #fff;
+	font-size: 11px;
+}
+header .containerheader .headerright .rem {
+	color: #d1d1e0;
+}
+header .containerheader .headerright p a {
+	text-decoration: none;
+	color: #d1d1e0;
+}
+header .containerheader .headerright button {
+	background-color: #5B74A8;
+	color: #fff;
+	font-weight: bold;
+	border-style: none;
+	margin-left: 15px; 
+}
+header .containerheader .headerright button:hover {
+	background-color: #3D5A99;
+}
+
+article {
+	width: 100%;
+	background: url(bg.jpg)repeat-x;
+}
+article .containerarticle {
+	overflow: hidden;
+	width: 1000px;
+	margin: auto;
+}
+article .articleleft {
+	margin-top: 40px;
+	width: 400px;
+	float: left;
+}
+article .articleleft p {
+	font-size: 20px;
+	font-weight: bold;
+	color: #0E385F;
+}
+article .articleleft img {
+	width: 400px;
+}
+article .articleright {
+	width: 400px;
+	float: right;
+}
+article .articleright h1 {
+	margin-top: 20px;
+	font-size: 32px;
+	color: #333;
+}
+article .articleright h2 {
+	margin-top: 10px;
+	font-size: 18px;
+	color: #333;
+}
+article .articleright p {
+	margin-top: 10px;
+	font-size: 10px;
+	color: #333;
+}
+article .articleright p a {
+	text-decoration: none;
+}
+article .articleright .nd input {
+	width: 150px;
+	padding: 8px;
+	margin-top: 15px;
+	padding-right: 10px;
+	margin-right: 8px;
+}
+article .articleright .nb input {
+	width: 150px;
+	padding: 8px;
+	margin-top: 15px;
+	padding-right: 10px;
+}
+article .articleright .enp input {
+	width: 340px;
+	margin-top: 10px;
+	padding: 8px;
+}
+article .articleright .enp2 input {
+	width: 340px;
+	margin-top: 10px;
+	padding: 8px;
+}
+article .articleright .pass input {
+	width: 340px;
+	margin-top: 10px;
+	padding: 8px;
+}
+article .articleright .selectdate select {
+	margin-top: 10px;
+	padding: 5px;
+	text-align: center;
+}
+article .articleright .selectmount select {
+	margin-top: 10px;
+	padding: 5px;
+	text-align: center;
+}
+article .articleright .selectyear select {
+	margin-top: 10px;
+	padding: 5px;
+	text-align: center;
+	margin-right: 20px;
+}
+article .articleright .rdbtnfemale {
+	padding-top: 20px;
+	font-size: 12px;
+	padding-right: 15px;
+}
+article .articleright .rdbtnmale {
+	padding-top: 20px;
+	font-size: 12px;
+}
+article .articleright .law {
+	width: 300px;
+}
+article .articleright button {
+	margin-top: 20px;
+	background-color: #009933;
+	color: #fff;
+	padding: 7px 25px;
+	border-style: solid;
+	font-size: 18px;
+}
+article .articleright hr {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+footer {
+	padding-bottom: 30px;
+	font-size: 12px;
+	color: #9CB4D8;
+}
+footer a {
+	text-decoration: none;
+}
